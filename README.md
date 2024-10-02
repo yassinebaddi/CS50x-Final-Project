@@ -69,7 +69,7 @@ $ sudo pip install --upgrade style50
 Here’s a succinct breakdown of the project files:
 
     - [style.css](project/static/styles.css) - CSS file defining the look-and-feel of each web page, i.e., each HTML file
-- ["templates" directory](project/templates) - contains only HTML documents
+- ["templates" directory](CS50x-Final-Project/templates) - contains only HTML documents
     - [edit.html](project/templates/edit.html) - web page where users modify their tasks on the To-Do list
     - [error.html](project/templates/error.html) - displays the image and the text of an error which caused them to be redirected to this page
     - [index.html](project/templates/index.html) - "homepage"
