@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+:root {
+    --primary-color: #536dfe;
+    --secondary-color: #3a58ff;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
+nav {
+    width: 100%;
+    border: none;
+}
+
+nav .navbar-brand {
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 0.2em;
+}
+
+.black {
+    color: var(--black-color);
+}
+
+.blue {
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color) !important;
+}
+
+.nav-link {
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: var(--white-color);
+}
+
+#index-body {
+    background-color: var(--white-color);
+    background-size: 100% auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: rgba(100, 100, 100, 0.507);
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    font-size: 1.25em;
+}
+
+form {
+    width: fit-content;
+    font-size: 0.5rem;
+    color: var(--white-color);
+}
+
+a.button {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+.pswd-change {
+    margin: auto;
+}
+
+#task {
+    border: none;
+    width: 600px;
+    height: 50px;
+    box-shadow: 0px 0px 3px #9a9a9a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 60%;
+}
+
+.options {
+    width: fit-content;
+}
+
+.logo {
+    width: 200px;
+    padding-bottom: 8px;
+}
+
+.btn-info {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    height: 50px;
+    width: 120px;
+}
+
+.btn-info:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn-outline-success {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-success:hover {
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.table>:not(caption)>*>* {
+    background-color: var(--primary-color);
+}
+
+li.nav-item {
+    background: var(--primary-color);
+    color: var(--white-color);
+    margin: 0px 9px;
+    padding: 3px 28px;
+    border-radius: 6px;
+}
+
+li.nav-item:hover {
+    background: var(--secondary-color);
+    color: var(--white-color);
+}
+
+a.nav-link.btn {
+    color: var(--white-color) !important;
+}
+
+a.nav-link.btn.btn-outline-light:hover {
+    background: none;
+}
+
+.jumbotron {
+    background-color: var(--primary-color);
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    color: var(--white-color);
+    font-size: 36px;
+}
+
+.jumbotron.Logo {
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px #d4d4d4;
+}
+
+.jumbotron.Logo > img {
+    width: 400px;
+}
+
+h2.text-center.mb-4 {
+    font-size: 52px;
+}
+
+p.text-center {
+    font-size: 20px;
+}
+
+.table-hover>tbody>tr:hover>* {
+    --bs-table-accent-bg: var(--primary-color);
+    color: var(--bs-table-hover-color);
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: var(--white-color);
+}
+
+form {
+    width: fit-content;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}

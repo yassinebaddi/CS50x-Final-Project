@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Error Page
+{% endblock %}
+
+{% block main %}
+    <div class="container d-flex justify-content-center">
+        <img 
+            src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Green_Wormhole.png/1920px-Green_Wormhole.png&width=850" 
+            alt="{{ top }}" 
+            class="img-fluid border" 
+            title="{{ top }}">
+    </div>
+{% endblock %}

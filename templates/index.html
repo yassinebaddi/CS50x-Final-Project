@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block body %}
+    id="index-body" class="bg-white"
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <div class="jumbotron">
+            <div class="jumbotron-content text-center">
+                {% if not session['user_id'] %}
+                    <h2 class="mb-4">A simple web application for your <strong>ToDo List</strong></h2>
+                    <p>My final CS50 project is a ToDo list app with a basic login system. I hope you find it useful!</p>
+                    <form action="/register" class="d-flex justify-content-center"></form>
+                {% else %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="jumbotron Logo">
+            <img src="../static/Logo.png" alt="Logo">
+        </div>
+    </div>
+{% endblock %}
