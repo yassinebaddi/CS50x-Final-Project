@@ -1,5 +1,5 @@
 # Done
-## Video Demo:  [https://youtu.be/nLg4EYivbpk](https://youtu.be/nLg4EYivbpk)
+## Video Demo:  https://streamable.com/71qga6
 ## About project
 This is my CS50x final project. I often forget to do simple errands or to do something.
 The very simple goal of a to-do list is to get my tasks done; often it is a simple activity like putting your sheets back on the bed or booking my next trip. Often a list is all that is necessary to meet that simple goal.
