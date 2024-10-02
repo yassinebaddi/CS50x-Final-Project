@@ -55,7 +55,7 @@ $ sudo pip install --upgrade style50
 # Upgrades style50 to the latest version
 
 <br/>
-
+```
 
 ### Recommended Tools
 - [Visual Studio Code Download](https://code.visualstudio.com/#alt-downloads)
@@ -64,8 +64,8 @@ $ sudo pip install --upgrade style50
 <br/>
 
 
-
 # Project Structure
+
 Here’s a succinct breakdown of the project files:
 
 style.css: Defines the visual appearance of each web page.
