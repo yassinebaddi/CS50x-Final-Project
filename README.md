@@ -69,18 +69,18 @@ $ sudo pip install --upgrade style50
 Here’s a succinct breakdown of the project files:
 
     - [style.css](project/static/styles.css) - CSS file defining the look-and-feel of each web page, i.e., each HTML file
-- ["templates" directory](CS50x-Final-Project/templates) - contains only HTML documents
-    - [edit.html](project/templates/edit.html) - web page where users modify their tasks on the To-Do list
-    - [error.html](project/templates/error.html) - displays the image and the text of an error which caused them to be redirected to this page
-    - [index.html](project/templates/index.html) - "homepage"
-    - [layout.html](project/templates/layout.html) - skeletal structure of the web page, in order to keep the code in the DRY principle
-    - [login.html](project/templates/login.html) - users input their username and password
-    - [password_change.html](project/templates/password_change.html) - allows the users to change their password
-    - [register.html](project/templates/register.html) - page containing username field, and two password fields, so that users can confirm their password
-    - [todo.html](project/templates/todo.html) - the web page where most of the web application functionalities happen, e.g. add to the list, remove from it, edit the items on the list
-- [app.py](project/app.py) - Python code making all of the functionalities happen
-- [done.db](project/done.db) - Relational database containing tables of users, and their To-Do lists
-- [helpers.py](project/helper.py) - Ensures that user is logged in and checks for errors
+- ["templates" directory](templates) - contains only HTML documents
+    - [edit.html](templates/edit.html) - web page where users modify their tasks on the To-Do list
+    - [error.html](templates/error.html) - displays the image and the text of an error which caused them to be redirected to this page
+    - [index.html](templates/index.html) - "homepage"
+    - [layout.html](templates/layout.html) - skeletal structure of the web page, in order to keep the code in the DRY principle
+    - [login.html](templates/login.html) - users input their username and password
+    - [password_change.html](templates/password_change.html) - allows the users to change their password
+    - [register.html](templates/register.html) - page containing username field, and two password fields, so that users can confirm their password
+    - [todo.html](templates/todo.html) - the web page where most of the web application functionalities happen, e.g. add to the list, remove from it, edit the items on the list
+- [app.py](app.py) - Python code making all of the functionalities happen
+- [done.db](done.db) - Relational database containing tables of users, and their To-Do lists
+- [helpers.py](helper.py) - Ensures that user is logged in and checks for errors
 
 
 ## How to Start the Project
