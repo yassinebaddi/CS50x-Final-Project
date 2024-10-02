@@ -3,6 +3,12 @@
 ## Video Demo
 [Watch the demo here](https://streamable.com/71qga6)
 
+- Video recording date: 10/2/2024
+- My project title: ToDo List
+- My name: Yassine Baddi 
+- My name on GitHub and edX: yassine baddi
+- My city and country: Rabat Morocco
+
 ## About the Project
 Welcome to **DONE**, my final project for CS50x! This web application aims to help users manage their daily tasks and errands efficiently. We all have moments when we forget to complete simple chores—like putting sheets back on the bed or booking a trip. Often, all it takes to stay on track is a simple to-do list.
 
