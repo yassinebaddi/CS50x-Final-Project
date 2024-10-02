@@ -68,22 +68,6 @@ $ sudo pip install --upgrade style50
 
 Here’s a succinct breakdown of the project files:
 
-style.css: Defines the visual appearance of each web page.
-templates/: Contains the HTML documents.
-edit.html: Modify tasks in the to-do list.
-error.html: Displays error messages.
-index.html: The homepage of the application.
-layout.html: The skeletal structure to maintain DRY principles.
-login.html: User login page for credentials input.
-password_change.html: Allows users to change their passwords.
-register.html: User registration page with username and password confirmation.
-todo.html: The main interface for managing tasks.
-app.py: Python code that implements application functionalities.
-done.db: SQLite database for storing user data and to-do lists.
-helpers.py: Contains helper functions for user authentication and error checking.
-
-
-
     - [style.css](project/static/styles.css) - CSS file defining the look-and-feel of each web page, i.e., each HTML file
 - ["templates" directory](project/templates) - contains only HTML documents
     - [edit.html](project/templates/edit.html) - web page where users modify their tasks on the To-Do list
@@ -97,4 +81,24 @@ helpers.py: Contains helper functions for user authentication and error checking
 - [app.py](project/app.py) - Python code making all of the functionalities happen
 - [done.db](project/done.db) - Relational database containing tables of users, and their To-Do lists
 - [helpers.py](project/helper.py) - Ensures that user is logged in and checks for errors
+
+
+## How to Start the Project
+
+Follow these steps to get the project up and running:
+
+1. **Download the project files.**
+2. **Extract the files.**
+3. **Open the project in Visual Studio Code (or your preferred IDE).**
+4. **Open a terminal and navigate to the project directory:**
+    ```bash
+    cd project
+    ```
+5. **Run the application:**
+    ```bash
+    python app.py
+    flask run
+    ```
+6. **Access the application** at [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your web browser.
+
 
